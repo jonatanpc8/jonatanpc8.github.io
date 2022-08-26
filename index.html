@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet"> 
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet"> 
+    
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="imagenes/image.png" alt="logo">
+      <h1>Encriptador</h1>
+    </header>
+    <main>
+      
+      <section class="areaEntrada">
+        <!-- Area entrada texto -->
+        <div >
+          <textarea class="entradaTexto" placeholder="Ingrese un texto "></textarea>
+        </div>
+        <!-- Area botones -->
+        <div class="botones">
+          <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+          <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+      </section>
+
+      <section class="areaResultado">
+        <!--Area salida texto-->
+        <textarea class="mensaje" readonly> </textarea>
+        <div>
+          <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+      </section>
+      
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+      <p>©Todos los derechos reservados Alura</p>
+    </footer>
+  </body>
+</html>

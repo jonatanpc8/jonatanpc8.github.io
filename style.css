@@ -1,0 +1,100 @@
+#logo{
+    margin-top: 20px ;
+    margin-left: 40px;
+    transform: scale(1.5);
+}
+header{
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    margin: 20px;
+}
+
+body{
+    background-image: url(imagenes/Fondo.jpg);
+    opacity: 1;
+}
+
+h1{
+    font-size: 70px;
+    display: inline;
+    color: aliceblue;
+    margin-left: 25%;
+    font-family: 'Rubik Maze', cursive;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+}
+.btnEncriptar{
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    
+    font-family: 'JetBrains Mono', monospace;
+    
+}
+.btnDesencriptar{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: gray;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.entradaTexto{
+    width: 90%;
+    vertical-align: baseline;
+    text-align: left; 
+    margin-top: 30px;
+    min-height: 400px;
+    min-width: auto;
+    font-size: 20px;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.areaEntrada{
+    display: inline-block;
+    width: 70%;
+
+}
+
+.areaResultado{
+    display: inline-block;
+    width: 30%;
+    
+}
+.mensaje{
+    position: relative;
+    margin-top: 30px;
+    background-image: url("imagenes/Muneco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: contain;
+    min-height: 400px;
+    font-size: 20px;
+    box-shadow: 10px 10px 30px 10px #000000;
+    vertical-align: baseline;
+    width: 100%;
+    
+}
+.btnCopiar{
+    position: relative;
+    top: 10px; left: 30%;
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: dimgray;
+    color: antiquewhite;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+footer{
+    color: beige;
+    text-align: center;
+}
